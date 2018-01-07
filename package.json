@@ -1,0 +1,22 @@
+{
+  "name": "node-code-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index",
+    "test": "istanbul cover --include-all-sources jasmine-node spec/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "frisby": "^2.0.10",
+    "istanbul": "^0.4.5",
+    "jasmine-node": "^1.14.5",
+    "jest": "^22.0.4"
+  }
+}
