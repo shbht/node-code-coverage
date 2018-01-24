@@ -1,10 +1,10 @@
 let chai = require('chai');
 
 describe('Fruits', () => {
-  describe('/ api endpoint', () => {
+  describe('/fruits api endpoint', () => {
 	  it('should return all colors', function() {
 	    return chai.request(app)
-	      .get('/')
+	      .get('/fruits')
 	      .then(function(res) {
 						expect(res).to.have.status(200);
 						expect(res).to.be.json;

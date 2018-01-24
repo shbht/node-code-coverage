@@ -3,7 +3,7 @@ const frisby = require("frisby"),
 
 describe("test cases for / api", () => {
 	it("should return status 200", (done) => {
-		let url = baseUrl + "/";
+		let url = baseUrl + "/fruits";
 
 		frisby
 			.get(url)
